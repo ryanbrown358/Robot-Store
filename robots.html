@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mr. Robot Store</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cuprum|Roboto+Condensed" rel="stylesheet">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+    <!-- Start Nav Area -->
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-default navbar-fixed-top" id="roboNav" role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" id="navToggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="navbarBrand" href="index.html">Mr. Robot</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="computers.html">Hardware</a></li>
+              <li class="active"><a href="robots.html">Robots</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+              <div id="search-area">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search" id="search">
+                </div>
+                <button type="submit" id="search-btn" class="btn btn-default">Submit</button>
+              </div>
+            </form>
+
+          </div><!-- /.navbar-collapse -->
+        </nav>
+
+      </div>
+    </div>
+    <!-- End of Nav area -->
+
+    <!-- Logo & Header -->
+    <div class="container-fluid">
+      <div class="row">
+        <div id="brand-logo">
+          <img src="images/logo.png" class="responsive">
+        </div>
+      </div>
+    </div>
+    </header>
+    <!-- End Logo & Header -->
+    <div id="content">
+    <!-- Content -->
+    <div class="container" style="margin-top: 30px;">
+      <div class="row">
+        <h3>Mr. Robot's Top Models</h3>
+
+        <div class="col-md-12 hidden" id="no-data">
+          <h2 class="text-center">No data</h2>
+        </div>
+        <!-- Robo Dog -->
+        <div class="col-sm-6 col-md-4 robot" id="robo1">
+          <div class="thumbnail thumbnail-1">
+            <img src="images/roboDog.png" alt="Robo Dog, Name: R.E.T.T." />
+            <div class="caption">
+              <h4>Name: Rett</h4>
+              <p><strong>Description</strong><br />
+                This was our first robot. He was modeled after the famous movie character E.T.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Butler.Bot -->
+        <div class="col-sm-6 col-md-4 robot" id="robo2">
+          <div class="thumbnail thumbnail-1">
+            <img src="images/robot2.png" alt="Butler Bot" />
+            <div class="caption">
+              <h4>Name: Butler.Bot</h4>
+              <p><strong>Description</strong><br />
+                This was our second robot. He makes a mean martini.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mega Man -->
+        <div class="col-sm-6 col-md-4 robot" id="robo3">
+          <div class="thumbnail thumbnail-1">
+            <img src="images/robot3.png" alt="Megaman" />
+            <div class="caption">
+              <h4>Name: Megaman</h4>
+              <p><strong>Description</strong><br />
+                This is our newest model. This one will follow you around the house.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div id="results"></div>
+      </div>
+    </div>
+    <!-- End Content -->
+  </div>
+  <!-- END -->
+    <!-- Footer -->
+    <footer class="footer" id="myFoot">
+      <div class="container-fluid">
+        <div class="container" id="footer-align">
+          <div class="col-md-4">
+            <span>Our Address is <address>1011 Crater Ave, Moon City: THE MOON</address></span>
+          </div>
+          <div class="col-md-4">
+            <p class="footer-copy">&copy; 2017 <a href="http://mrrobot.com" target="_blank">Mr. Robot</a> - All Rights Reserved</p>
+          </div>
+          <div class="col-md-4">
+            <p class="text-muted" id="muted-text">
+              This Page Was generated on <time>09:25:04.123</time>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!--Js files -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

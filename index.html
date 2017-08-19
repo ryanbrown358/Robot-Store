@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mr. Robot Store</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cuprum|Roboto+Condensed" rel="stylesheet">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+    <!-- Start Nav Area -->
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-default navbar-fixed-top" id="roboNav" role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" id="navToggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="navbarBrand" href="index.html">Mr. Robot</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="computers.html">Hardware</a></li>
+              <li><a href="robots.html">Robots</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+              <div id="search-area">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search" id="search">
+                </div>
+                <button type="submit" id="search-btn" onclick="searchRobot(event)" class="btn btn-default">Submit</button>
+              </div>
+            </form>
+
+          </div><!-- /.navbar-collapse -->
+        </nav>
+
+      </div>
+    </div>
+    <!-- End of Nav area -->
+
+    <!-- Logo & Header -->
+    <div class="container-fluid">
+      <div class="row">
+        <div id="header-img">
+        </div>
+      </div>
+    </div>
+    </header>
+    <!-- End Logo & Header -->
+
+    <div id="content">
+    <!-- Content -->
+    <div class="container" style="margin-top: 30px;">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/robot_hello.png" alt="Hello Robot" />
+        </div>
+        <div class="col-md-8" id="two-col-text">
+          <h3>Welcome to Mr. Robot Store</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in lobortis ex. Suspendisse vestibulum varius porta. Ut ligula risus, fermentum nec elit eget, feugiat consequat diam. Donec accumsan tristique convallis. Curabitur sit amet facilisis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sollicitudin augue et metus volutpat pellentesque. Maecenas dui quam, iaculis at massa in, varius varius lectus. Fusce efficitur justo sed lobortis efficitur. Sed vel quam at mi tristique convallis non id justo. Vestibulum molestie odio sed congue tempor. Mauris at nisl a risus finibus efficitur. Mauris quis luctus erat, id auctor tellus. Nulla vel suscipit metus. Donec porta dapibus eros et finibus. Maecenas suscipit nisl sed dictum luctus. Proin suscipit laoreet ante a dictum. Donec ornare, erat quis dignissim maximus, neque ex laoreet massa, sed convallis turpis turpis ut elit. Suspendisse varius augue ante, sed fermentum dui facilisis non. Nulla neque leo, placerat ut tempor quis, ornare sed lorem. Mauris egestas sem non magna semper lobortis.
+          </p>
+          <br />
+          <span id="note">Note that our store is closed on Christmas eve and Christmas day.</span>
+        </div>
+      </div>
+    </div>
+    <!-- End Content -->
+  </div>
+  <!-- END -->
+    <!-- Footer -->
+    <footer class="footer footer-fixed-bottom" id="myFoot">
+      <div class="container-fluid">
+        <div class="container" id="footer-align">
+          <div class="col-md-4">
+            <span>Our Address is <address class="footAddress">1011 Crater Ave, Moon City: THE MOON</address></span>
+          </div>
+          <div class="col-md-4">
+            <p class="footer-copy">&copy; 2017 <a href="http://mrrobot.com" target="_blank">Mr. Robot</a> - All Rights Reserved</p>
+          </div>
+          <div class="col-md-4">
+            <p class="text-muted" id="muted-text">
+              This Page Was generated on <time>09:25:04.123</time>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!--Js files -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
